@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A0CFCB"
+    tools:context=".IndoorActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/details"/>
+
+    <Button
+        android:id="@+id/btn_chessbook"
+        android:layout_width="301dp"
+        android:background="@drawable/round"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="chess-rs100 per hour"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <Button
+        android:id="@+id/btn_ttbook"
+        android:layout_width="305dp"
+        android:layout_height="44dp"
+        android:background="@drawable/round"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="223dp"
+        android:text="table tennis-rs200 per hour"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <Button
+        android:id="@+id/btn_snookerbook"
+        android:layout_width="304dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/round"
+        android:text="snooker-rs 300 per hour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_badmintonbook"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="232dp"
+        android:text="badminton-rs300 per hour" />
+
+    <Button
+        android:id="@+id/btn_carombook"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="126dp"
+        android:text="carom - rs200 per hour" />
+</RelativeLayout>

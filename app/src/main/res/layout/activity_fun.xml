@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn_out"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADE2DD"
+    tools:context=".FunActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fun3"/>
+
+    <Button
+        android:id="@+id/btn_indoor"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round"
+        android:layout_marginTop="184dp"
+        android:text="Indoor games" />
+
+    <Button
+        android:id="@+id/btn_outdoor"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round"
+        android:layout_marginTop="277dp"
+        android:text="Outdoor games" />
+
+    <Button
+        android:id="@+id/btn_adventure"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="312dp"
+        android:text="adventure" />
+
+    <Button
+        android:id="@+id/btn_disco"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="220dp"
+        android:text="disco" />
+
+    <Button
+        android:id="@+id/btn_guhantara"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="126dp"
+        android:text="guhantara special package" />
+
+</RelativeLayout>
